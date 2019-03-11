@@ -1,0 +1,4 @@
+Nesse projeto ultilizei swagger para documentação, ao entrar em localhost:5001/swagger haverá todos 
+os endpoints do back-end para serem acessados, arquitetura com varias camadas ultilizando principios solid,padrão DDD camadas de aplicação, dominio, infraestrutura e aprensentação. 
+ultilizei Model-First com localdb então para ultilizar o banco deve colocar add-migration "o nome que desejar" para criar as tabelas e o banco, ai é só clicar em start setei a porta padrão 50001, caso o navegador reclame de falta de segurança é porque o SSl 
+está configurado então clique com o botão direito em properties e depois desmarque a opção enable SSL caso esteja marcada, o cors está configurado para que o front o consuma sem problemas também  
